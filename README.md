@@ -1,8 +1,10 @@
 # EthereumBlockchainPath
 This is a place in which I keep the current/past projects related to Ethereum Blockchain that I develop for my own study purpose and to share it with recruiters that are interested to find more about my knowledge and motivation.
 
-The first project SolidityContracts contains some simple contracts that I Implemented in order to get used and learn Solidity.
+SolidityContracts contains some simple contracts that I Implemented in order to get used and learn Solidity.
 These contracts were run using the http://remix.ethereum.org/ and the <b>Web3 Provider</b> environment offered by <b>Ganache</b> and interact with <b>Web3.js</b>
+
+
 
 
 SharedWallet contains the necessary Solidity contracts used to retrieve and withdrawl Ethereum on and from an address.
@@ -12,6 +14,8 @@ Main behavior is following:
 3. Non-Owner can do withdrawal based on a allowance variable set by owner.
 4. Only owner can change the allowance.
 Project was run using the http://remix.ethereum.org/ and the Web3 Provider environment offered by Ganache and interact with Web3.js
+
+
 
 
 SupplyChainTrigger is a project created using truffle unbox which downloaded a a react project setup in order to interact with smart contracts.
